@@ -463,7 +463,7 @@ class CertificateGen(object):
 
         #paragraph_string = "Issued {0}".format(self.issued_date)
         #paragraph_string = "{0}".format(self.issued_date)
-        paragraph_string = "Santiago de Chile, 30 de noviembre de 2018".format(self.issued_date)
+        paragraph_string = "Santiago de Chile, 21 de diciembre de 2018".format(self.issued_date)
 
         # Right justified so we compute the width
         width = stringWidth(
@@ -600,7 +600,7 @@ class CertificateGen(object):
         #!important course name
         #paragraph_string = u"<b style='line-height: 2'><i>{1}</i></b>".format(
         #    self.course, self.long_course.decode('utf-8'))
-        paragraph_string = u"<b style='line-height: 2'><i>Paisaje Sonoro: escucha, experiencia y cotidianidad</i></b>".format(
+        paragraph_string = u"<b style='line-height: 2'><i>Sexualidades en la Escuela 5° edición</i></b>".format(
             self.course, self.long_course.decode('utf-8'))
         paragraph = Paragraph(paragraph_string, styleOpenSans)
         # paragraph.wrapOn(c, WIDTH * mm, HEIGHT * mm)
@@ -630,7 +630,7 @@ class CertificateGen(object):
         #                   "<b>{1}</b> through <b>edX</b>.".format(
         #                       self.org, self.long_org.decode('utf-8'))
 
-        paragraph_string = "realizado entre el 30 de octubre y el 30 de noviembre de 2018<br/><br/>" \
+        paragraph_string = "realizado entre el 13 de noviembre y el 21 de diciembre de 2018<br/><br/>" \
                            "en la plataforma UAbierta de la Universidad de Chile".format(
                                self.org, self.long_org.decode('utf-8'))
 
